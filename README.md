@@ -1,55 +1,79 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Netec-Mx/261006-Custom-MS-4004-3-BC-LD-MSV-Priv/main/assets/LogoNetec.png" alt="NETEC" width="180" />
-</p>
+<img src="images/neteclogo (2).png" alt="logo" width="300"/>
 
 # Capacita a tus empleados con Microsoft 365 Copilot: Casos de uso TI y automatización
 
-Este curso proporciona a profesionales de TI y Automatización una experiencia práctica para utilizar Microsoft 365 Copilot como apoyo en el análisis de procesos, documentación técnica y funcional, priorización de mejoras y comunicación de cambios. El trabajo parte de artefactos habituales del área, incluidos archivos PDF con diagramas o flujos visuales, sin convertirse en un curso de programación o desarrollo de agentes. La sesión enfatiza el uso de Copilot Chat para interpretar y cuestionar procesos, la generación de documentación reutilizable en Markdown (.md), el uso de Investigador y Analista para validar información y datos, y la integración con Excel, Word, PowerPoint y Outlook para convertir hallazgos en decisiones y entregables para públicos técnicos y de negocio.
+## Plataforma de laboratorios
 
-## Accesos rápidos
+Te damos la bienvenida a la **plataforma de laboratorios** del curso **Custom MS-4004.3 BC LD MSV (Priv)**. Aquí podrás desarrollar prácticas guiadas orientadas al uso de Microsoft 365 Copilot en escenarios de TI y automatización, utilizando artefactos habituales del área para analizar procesos, documentar hallazgos, priorizar mejoras y comunicar decisiones.
 
-- [**Setup Guide del curso**](https://github.com/Netec-Mx/261006-Custom-MS-4004-3-BC-LD-MSV-Priv/blob/main/SETUP_GUIDE.md)
-- [Laboratorios por capítulo](#lista-de-laboratorios)
-
-## Estructura
-
-- `SETUP_GUIDE.md`: guía de instalación y preparación del entorno.
-- `CapituloXX/README.md`: guía de laboratorio por capítulo.
+El curso tiene una duración total de **2 horas**, con una distribución de **15% teoría y 85% práctica**.
 
 ## Lista de laboratorios
 
-### Capítulo 1
-
-- [Práctica: Análisis de PDF con diagrama o flujo visual en Copilot Chat, estructuración del proceso y generación de proceso_actual.md](Capitulo01/README.md#práctica-análisis-de-pdf-con-diagrama-o-flujo-visual-en-copilot-chat-estructuración-del-proceso-y-generación-de-proceso-actualmd)
-  - Duración estimada: 17 min
-  - [Ver capítulo completo](Capitulo01/README.md)
-
-### Capítulo 2
-
-- [Práctica: Detección de inconsistencias con Copilot y generación de analisis_proceso.md con vistas técnica y funcional, sección de riesgos y preguntas de validación](Capitulo02/README.md#práctica-detección-de-inconsistencias-con-copilot-y-generación-de-analisis-procesomd-con-vistas-técnica-y-funcional-sección-de-riesgos-y-preguntas-de-validación)
-  - Duración estimada: 20 min
-  - [Ver capítulo completo](Capitulo02/README.md)
-
-### Capítulo 3
-
-- [Práctica: Construcción y priorización de backlog con Analista y Copilot en Excel combinando hallazgos de analisis_proceso.md con datos operativos de ejemplo](Capitulo03/README.md#práctica-construcción-y-priorización-de-backlog-con-analista-y-copilot-en-excel-combinando-hallazgos-de-analisis-procesomd-con-datos-operativos-de-ejemplo)
-  - Duración estimada: 20 min
-- [Práctica: Generación de documentación del proceso en Word y presentación ejecutiva en PowerPoint con Copilot, verificando consistencia con el PDF original](Capitulo03/README.md#práctica-generación-de-documentación-del-proceso-en-word-y-presentación-ejecutiva-en-powerpoint-con-copilot-verificando-consistencia-con-el-pdf-original)
-  - Duración estimada: 20 min
-  - [Ver capítulo completo](Capitulo03/README.md)
-
-### Capítulo 4
-
-- [Práctica: Validación con Investigador, actualización de proceso_mejorado.md y elaboración de comunicaciones diferenciadas con Copilot en Outlook para equipos técnicos, responsables del proceso y patrocinadores](Capitulo04/README.md#práctica-validación-con-investigador-actualización-de-proceso-mejoradomd-y-elaboración-de-comunicaciones-diferenciadas-con-copilot-en-outlook-para-equipos-técnicos-responsables-del-proceso-y-patrocinadores)
-  - Duración estimada: 25 min
-  - [Ver capítulo completo](Capitulo04/README.md)
-
-## Flujo de colaboración
-
-- Trabajar en `changes_course`.
-- Crear Pull Request hacia `main`.
-- Merge por `Squash and merge`.
+Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia práctica. Las actividades parten de un mismo escenario de análisis y mejora de procesos, reutilizando los resultados obtenidos en las prácticas anteriores.
 
 ---
 
-*Material didáctico preparado por Global K, S.A. de C.V.*
+### Práctica 1: Con Copilot Chat analizarán un PDF con un diagrama o flujo visual, estructurarán objetivo, actores, secuencia, decisiones, excepciones y dependencias, y validarán la respuesta contra el artefacto original. Identificarán ambigüedades y generarán proceso_actual.md con el análisis y las preguntas abiertas.
+
+- **Descripción**: Analizar un archivo PDF que contiene un diagrama o flujo visual mediante Copilot Chat, diferenciando la información observada de las inferencias que deben validarse. El participante organizará los elementos principales del proceso e identificará ambigüedades para generar el archivo `proceso_actual.md` con el análisis y las preguntas abiertas.
+- ⏱️ **Duración estimada**: 17 min
+
+---
+
+### Práctica 2: Utilizando el mismo PDF y el archivo proceso_actual.md, pedirán a Copilot que cuestione el flujo y detecte posibles inconsistencias de lógica o notación, marcándolas como hallazgos por validar. Después generarán analisis_proceso.md con dos vistas del mismo proceso: una explicación técnica para TI y una explicación funcional y no técnica para responsables de negocio, además de una sección de inconsistencias, riesgos y preguntas de validación.
+
+- **Descripción**: Revisar el proceso previamente analizado para detectar posibles inconsistencias de lógica, secuencia, responsabilidades, conexiones o notación. Los hallazgos se documentarán como elementos por validar y se generará `analisis_proceso.md`, incluyendo una vista técnica para TI, una vista funcional para negocio, riesgos, inconsistencias y preguntas de validación.
+- ⏱️ **Duración estimada**: 20 min
+
+---
+
+### Práctica 3: Con Analista y Copilot en Excel combinarán los hallazgos del archivo analisis_proceso.md con datos operativos de ejemplo, como incidencias, recurrencia, tiempos o impacto. Construirán un backlog con evidencia, impacto, esfuerzo, riesgo, responsable, indicador, candidato a automatización y control humano requerido; después priorizarán las acciones que deberían revisarse primero.
+
+- **Descripción**: Utilizar Analista y Copilot en Excel para combinar los hallazgos documentados con datos operativos de ejemplo. El participante construirá y priorizará un backlog de mejoras considerando evidencia, impacto, esfuerzo, riesgo, responsables, indicadores, posibles candidatos a automatización y controles humanos requeridos.
+- ⏱️ **Duración estimada**: 20 min
+
+---
+
+### Práctica 4: Reutilizarán analisis_proceso.md como fuente para crear en Word una documentación del proceso con situación actual, hallazgos, procedimiento y recomendaciones. A partir del mismo contenido, utilizarán Copilot en PowerPoint para preparar una versión ejecutiva que explique el proceso, los riesgos, las oportunidades de mejora y las decisiones requeridas, verificando que ambos entregables sean consistentes con el PDF original.
+
+- **Descripción**: Reutilizar la documentación generada en Markdown para crear entregables consistentes en Word y PowerPoint. En Word se elaborará la documentación del proceso y en PowerPoint se preparará una versión ejecutiva centrada en riesgos, oportunidades de mejora y decisiones requeridas, verificando la trazabilidad con el PDF original.
+- ⏱️ **Duración estimada**: 20 min
+
+---
+
+### Práctica 5: Utilizarán Investigador para contrastar una dependencia, referencia o práctica relevante que requiera validación externa y decidirán qué evidencia puede incorporarse al análisis. Con los hallazgos confirmados actualizarán una versión final proceso_mejorado.md y, mediante Copilot en Outlook, prepararán comunicaciones diferenciadas para el equipo técnico, responsables del proceso y patrocinadores, incluyendo decisiones pendientes, responsables y próximos pasos.
+
+- **Descripción**: Validar información relevante mediante Investigador, incorporar únicamente evidencia pertinente al análisis y actualizar la versión final `proceso_mejorado.md`. Posteriormente, utilizar Copilot en Outlook para crear comunicaciones adaptadas a públicos técnicos, responsables del proceso y patrocinadores, incluyendo decisiones pendientes, responsables y próximos pasos.
+- ⏱️ **Duración estimada**: 25 min
+
+---
+
+## Validación de tiempos
+
+| Componente | Duración | Porcentaje |
+|---|---:|---:|
+| Teoría | 18 min | 15% |
+| Prácticas | 102 min | 85% |
+| **Total** | **120 min (2 h)** | **100%** |
+
+### Distribución por práctica
+
+| Práctica | Duración |
+|---|---:|
+| Práctica 1 | 17 min |
+| Práctica 2 | 20 min |
+| Práctica 3 | 20 min |
+| Práctica 4 | 20 min |
+| Práctica 5 | 25 min |
+| **Total de práctica** | **102 min** |
+
+---
+
+## 📬 **Contacto y más información**
+
+Si tienes alguna pregunta o necesitas más detalles, no dudes en [contactarnos](mailto:soporte@netec.com). También puedes encontrar más recursos en nuestra [página](https://netec.com).
+
+---
+
+¡Gracias por visitar nuestra plataforma! No olvides revisar todos los laboratorios y comenzar tu viaje de aprendizaje hoy mismo.
