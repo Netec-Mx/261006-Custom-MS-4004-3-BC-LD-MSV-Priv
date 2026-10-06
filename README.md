@@ -4,9 +4,8 @@
 
 ## Plataforma de laboratorios
 
-Te damos la bienvenida a la **plataforma de laboratorios** del curso **Custom MS-4004.3 BC LD MSV (Priv)**. Aquí podrás desarrollar prácticas guiadas orientadas al uso de Microsoft 365 Copilot en escenarios de TI y automatización, utilizando artefactos habituales del área para analizar procesos, documentar hallazgos, priorizar mejoras y comunicar decisiones.
+Te damos la bienvenida a la **plataforma de laboratorios** del curso **Capacita a tus empleados con Microsoft 365 Copilot: Casos de uso TI y automatización**. Aquí podrás desarrollar prácticas guiadas orientadas al uso de Microsoft 365 Copilot en escenarios de TI y automatización, utilizando artefactos habituales del área para analizar procesos, documentar hallazgos, priorizar mejoras y comunicar decisiones.
 
-El curso tiene una duración total de **2 horas**, con una distribución de **15% teoría y 85% práctica**.
 
 ## Lista de laboratorios
 
@@ -35,38 +34,17 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
 
 ---
 
-### [Práctica 4: Reutilizarán analisis_proceso.md como fuente para crear en Word una documentación del proceso con situación actual, hallazgos, procedimiento y recomendaciones. A partir del mismo contenido, utilizarán Copilot en PowerPoint para preparar una versión ejecutiva que explique el proceso, los riesgos, las oportunidades de mejora y las decisiones requeridas, verificando que ambos entregables sean consistentes con el PDF original.](Capitulo04/README.md)
+### [Práctica 4: Reutilizarán analisis_proceso.md como fuente para crear en Word una documentación del proceso con situación actual, hallazgos, procedimiento y recomendaciones. A partir del mismo contenido, utilizarán Copilot en PowerPoint para preparar una versión ejecutiva que explique el proceso, los riesgos, las oportunidades de mejora y las decisiones requeridas, verificando que ambos entregables sean consistentes con el PDF original.](Capitulo03/README.md)
 
 - **Descripción**: Reutilizar la documentación generada en Markdown para crear entregables consistentes en Word y PowerPoint. En Word se elaborará la documentación del proceso y en PowerPoint se preparará una versión ejecutiva centrada en riesgos, oportunidades de mejora y decisiones requeridas, verificando la trazabilidad con el PDF original.
 - ⏱️ **Duración estimada**: 20 min
 
 ---
 
-### [Práctica 5: Utilizarán Investigador para contrastar una dependencia, referencia o práctica relevante que requiera validación externa y decidirán qué evidencia puede incorporarse al análisis. Con los hallazgos confirmados actualizarán una versión final proceso_mejorado.md y, mediante Copilot en Outlook, prepararán comunicaciones diferenciadas para el equipo técnico, responsables del proceso y patrocinadores, incluyendo decisiones pendientes, responsables y próximos pasos.](Capitulo05/README.md)
+### [Práctica 5: Utilizarán Investigador para contrastar una dependencia, referencia o práctica relevante que requiera validación externa y decidirán qué evidencia puede incorporarse al análisis. Con los hallazgos confirmados actualizarán una versión final proceso_mejorado.md y, mediante Copilot en Outlook, prepararán comunicaciones diferenciadas para el equipo técnico, responsables del proceso y patrocinadores, incluyendo decisiones pendientes, responsables y próximos pasos.](Capitulo04/README.md)
 
 - **Descripción**: Validar información relevante mediante Investigador, incorporar únicamente evidencia pertinente al análisis y actualizar la versión final `proceso_mejorado.md`. Posteriormente, utilizar Copilot en Outlook para crear comunicaciones adaptadas a públicos técnicos, responsables del proceso y patrocinadores, incluyendo decisiones pendientes, responsables y próximos pasos.
 - ⏱️ **Duración estimada**: 25 min
-
----
-
-## Validación de tiempos
-
-| Componente | Duración | Porcentaje |
-|---|---:|---:|
-| Teoría | 18 min | 15% |
-| Prácticas | 102 min | 85% |
-| **Total** | **120 min (2 h)** | **100%** |
-
-### Distribución por práctica
-
-| Práctica | Duración |
-|---|---:|
-| Práctica 1 | 17 min |
-| Práctica 2 | 20 min |
-| Práctica 3 | 20 min |
-| Práctica 4 | 20 min |
-| Práctica 5 | 25 min |
-| **Total de práctica** | **102 min** |
 
 ---
 
