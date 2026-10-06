@@ -34,7 +34,7 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
 
 ---
 
-### [Práctica 4: Generación de documentación del proceso en Word y presentación ejecutiva en PowerPoint con Copilot, verificando consistencia con el PDF original](Capitulo03/README.md)
+### [Práctica 4: Generación de documentación del proceso en Word y presentación ejecutiva en PowerPoint con Copilot, verificando consistencia con el PDF original](Capitulo03/README1.md)
 
 - **Descripción**: Reutilizar la documentación generada en Markdown para crear entregables consistentes en Word y PowerPoint. En Word se elaborará la documentación del proceso y en PowerPoint se preparará una versión ejecutiva centrada en riesgos, oportunidades de mejora y decisiones requeridas, verificando la trazabilidad con el PDF original.
 - ⏱️ **Duración estimada**: 20 min
