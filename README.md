@@ -1,4 +1,4 @@
-<img src="images/neteclogo (2).png" alt="logo" width="300"/>
+<img src="image/neteclogo (2).png" alt="logo" width="300"/>
 
 # Capacita a tus empleados con Microsoft 365 Copilot: Casos de uso TI y automatización
 
